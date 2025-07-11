@@ -15,7 +15,7 @@ npm start
 
 ## Frontend
 
-The frontend resides in the `frontend` folder. It contains a minimal React setup.
+
 
 - `frontend/src` – React components
 - `frontend/public` – static files and `index.html`
@@ -30,11 +30,6 @@ npm start
 
 ## Project Structure
 
-frontend/
-  public/
-    index.html
-  src/
-    App.js
     index.js
   package.json
 README.md

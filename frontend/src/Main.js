@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './App.css';
 
 function Main() {
@@ -23,7 +24,7 @@ function Main() {
           <p>Vos données sont chiffrées et protégées.</p>
         </div>
       </section>
-      <a href="#" className="btn-primary btn-large">Se connecter</a>
+
     </main>
   );
 }
