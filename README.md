@@ -4,16 +4,6 @@ This repository contains a simple Node.js/Express backend connected to PostgreSQ
 
 ## Backend
 
-The backend resides in the `backend` folder. It now exposes CRUD endpoints for users, document templates and generated documents. Authentication is handled via JWT tokens.
-
-Main files:
-
-- `backend/index.js` – entry point of the Express application
-- `backend/app.js` – routes aggregator
-- `backend/db.js` – PostgreSQL connection helper
-- `backend/models/` – data access functions
-- `backend/routes/` – REST API endpoints
-- `backend/schema.sql` – SQL schema for all tables
 
 Run the backend:
 ```bash
@@ -38,22 +28,7 @@ npm start
 ```
 
 ## Project Structure
-```
-backend/
-  app.js
-  db.js
-  index.js
-  models/
-    generatedDocumentModel.js
-    templateModel.js
-    userModel.js
-  routes/
-    auth.js
-    generatedDocs.js
-    templates.js
-    users.js
-  package.json
-  schema.sql
+
 frontend/
   public/
     index.html
