@@ -4,11 +4,6 @@ This repository contains a simple Node.js/Express backend connected to PostgreSQ
 
 ## Backend
 
-The backend resides in the `backend` folder. It uses Express for routing and the `pg` package to connect to PostgreSQL.
-
-- `backend/index.js` – entry point of the Express application
-- `backend/app.js` – example route definition
-- `backend/package.json` – basic project configuration
 
 Run the backend:
 ```bash
@@ -34,11 +29,6 @@ npm start
 
 ## Project Structure
 
-```
-backend/
-  app.js
-  index.js
-  package.json
 frontend/
   public/
     index.html
