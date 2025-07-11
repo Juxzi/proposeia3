@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import './App.css';
 
 function Main() {
@@ -24,7 +24,7 @@ function Main() {
           <p>Vos données sont chiffrées et protégées.</p>
         </div>
       </section>
-      <Link to="/login" className="btn-primary btn-large">Se connecter</Link>
+
     </main>
   );
 }
