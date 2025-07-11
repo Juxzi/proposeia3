@@ -27,7 +27,6 @@ body {
 }
 
 
-
 .logo-title {
   display: flex;
   align-items: center;
@@ -122,5 +121,4 @@ body {
 .footer-links a:focus {
   text-decoration: underline;
 }
-
 
