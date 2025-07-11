@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './App.css';
 
 function TemplateCard({ template }) {
@@ -25,9 +26,7 @@ function TemplateCard({ template }) {
           <li key={s} className="template-section">{s.trim()}</li>
         ))}
       </ul>
-      <button className="btn-primary template-btn" aria-label="Créer un document">
-        Créer un document à partir de ce modèle
-      </button>
+
     </div>
   );
 }
